@@ -1,7 +1,40 @@
-body {
-    background: red;
-}
 
-div {
-    background: blue;
-}
+/*@media screen and(min-width: 500px) {*/
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    html {
+        display: flex;
+    }
+
+    .alert-info {
+        margin: auto;
+        flex-direction: column;
+    }
+
+    h1 {
+        margin: auto;
+        flex-direction: column;
+    }
+
+    nav {
+        margin: auto;
+    }
+
+    .header-img {
+        display: flex;
+    }
+
+    img {
+        width: 339px;
+        height: 224px;
+        margin: auto;
+    }
+
+    section {
+        margin: auto;
+    }
+
+/*}*/
