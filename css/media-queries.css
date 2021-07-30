@@ -7,20 +7,57 @@
 
     html {
         display: flex;
+        font-family: sans-serif;
     }
 
     .alert-info {
         margin: auto;
         flex-direction: column;
+        border: 2px solid lightgrey;
+        width: 339px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: rgb(215, 254, 254);
+    }
+
+    .alert-info>a {
+        text-decoration: solid;
+        color: black;
     }
 
     h1 {
         margin: auto;
         flex-direction: column;
+        font-size: 3em;
+        padding: 15px;
+    }
+
+    nav a{
+        width: 339px;
+        text-align: center;
+        background-color: lightgrey;
+        margin: 10px;
+        display: block;
+        padding: 10px;
+
+
+    }
+
+    li {
+        list-style-type: none;
+
+
+    }
+
+    ul {
+        padding-left: 0;
+        list-style-position: inside;
+
     }
 
     nav {
-        margin: auto;
+        text-align: center;
     }
 
     .header-img {
