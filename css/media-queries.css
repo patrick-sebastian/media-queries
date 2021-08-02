@@ -3,6 +3,7 @@
     body {
         display: flex;
         flex-direction: column;
+        margin: 0 2em;
 
     }
 
@@ -13,7 +14,6 @@
     }
 
     .alert-info {
-        margin: auto 2em;
         flex-direction: column;
         border: 2px solid lightgrey;
         text-align: center;
@@ -35,18 +35,21 @@
     }
 
     nav a{
-        width: 319px;
+        width: 100%;
         text-align: center;
         background-color: lightgrey;
-        margin: 10px;
         display: flex;
         flex-direction: column;
         padding: 10px;
+        box-sizing: border-box;
+        margin: 1em 0;
     }
 
 
     li {
         list-style-type: none;
+        padding: 0;
+        width: 100%;
     }
 
     ul {
@@ -62,44 +65,60 @@
 
     .header-img {
         display: flex;
+        width: 100%;
     }
 
-    /*img {*/
-    /*    width: 339px;*/
-    /*    height: 224px;*/
-    /*    margin: auto;*/
-    /*}*/
 
     img {
-        max-width: 100%;
+        width: 100%;
         height: auto;
-        width: auto\9;
-        /*margin-top: 2em;*/
-        /*margin-right: auto;*/
-        /*margin-left: auto;*/
-        /*margin-bottom: 2em;*/
-
-        margin-top: auto;
-        margin-right: 2em;
-        margin-left: auto;
-        margin-bottom: auto;
-        justify-content: center;
-        padding-left: 2em;
-        padding-right: 2em;
-
-
+        display: block;
     }
 
     section {
-        margin: auto;
+
+    }
+    footer {
+
+    }
+
+@media screen and (min-width:900px) {
+
+    /*body {*/
+    /*    flex-direction: row;*/
+    /*}*/
+
+    h1 {
+        margin: 0;
+        flex-direction: row;
+    }
+
+    nav a {
+        background: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: flex-end;
+    }
+
+    ul{
+        flex-direction: row;
+
+    }
+
+    li {
+        display: inline-block;
+        flex-direction: row;
     }
 
 
-/*@media screen and (min-width:900px) {*/
+    .alert-info {
+        display: none;
+    }
 
-/*    div a {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
+    .header-img {
+        flex-direction: column;
+    }
+}
 
 
