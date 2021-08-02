@@ -82,11 +82,43 @@
 
     }
 
-/*@media screen and (min-width:900px) {*/
+@media screen and (min-width:900px) {
 
-/*    div a {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
+    /*body {*/
+    /*    flex-direction: row;*/
+    /*}*/
+
+    h1 {
+        margin: 0;
+        flex-direction: row;
+    }
+
+    nav a {
+        background: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: flex-end;
+    }
+
+    ul{
+        flex-direction: row;
+
+    }
+
+    li {
+        display: inline-block;
+        flex-direction: row;
+    }
+
+
+    .alert-info {
+        display: none;
+    }
+
+    .header-img {
+        flex-direction: column;
+    }
+}
 
 
